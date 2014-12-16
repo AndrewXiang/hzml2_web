@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+ <!--  <table-filter match-catalog="hzml2_web" match-name="toperator"/>
+  <table-filter match-catalog="hzml2_web" match-name="user"/> -->
+  
+  <table name="user" catalog="hzml2_web"
+		class="com.web.model.User">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+</hibernate-reverse-engineering>

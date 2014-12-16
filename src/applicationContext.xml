@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<!-- Spring与Hibernate配置整合 -->
+	<!-- 把session工厂注入给Hibernate -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="configLocation" value="classpath:hibernate.cfg.xml">
+		</property>
+	</bean>
+	<!-- 把DAO注入给Session工厂 -->
+	<bean id="logindao" class="com.web.dao.impl.LoginDaoImpl">
+		<property name="factory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="admindao" class="com.web.dao.impl.AdminDaoImpl">
+	    <property name="factory">
+	         <ref bean="sessionFactory"/>
+	    </property>
+	</bean>
+	<!-- 把Service注入给DAO -->
+	<bean id="loginservice" class="com.web.services.impl.LoginImpl">
+		<property name="login">
+			<ref bean="logindao" />
+		</property>
+	</bean>
+	<bean id ="adminservice" class="com.web.services.impl.AdminUserImpl">
+	    <property name="adminuser">
+	         <ref bean="admindao"/>
+	    </property>
+	</bean>
+</beans>

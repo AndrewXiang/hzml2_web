@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2014-12-8 10:52:37 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.web.model.User" table="user" catalog="hzml2_web">
+        <id name="userId" type="int">
+            <column name="user_id" />
+            <generator class="assigned" />
+        </id>
+        <property name="logonName" type="string">
+            <column name="logon_name" length="100" />
+        </property>
+        <property name="firstName" type="string">
+            <column name="first_name" length="40" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="last_name" length="40" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="510" />
+        </property>
+        <property name="isAdmin" type="java.lang.Integer">
+            <column name="is_admin" />
+        </property>
+    </class>
+</hibernate-mapping>
