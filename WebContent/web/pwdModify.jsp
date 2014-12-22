@@ -4,6 +4,8 @@
 <%
    int u_id=user.getUserId();
    String u_Name=user.getLogonName();
+   String u_FirstName=user.getFirstName();
+   String u_LastName= user.getLastName();
 %>
 <html>
 <head>
@@ -25,14 +27,14 @@
 		      <td align="center">登录名称：</td>
 		      <td>name ="logonName" value="<%=u_Name%>"</td>
 		 </tr> --%>
-		<!--  <tr>
+		<tr>
 			<td align="center">用户名字：</td>
-			<td><input type="text" name="firstName" size="20" value=""></td>
+			<td><input type="text" name="firstName" size="20" value="<%=u_FirstName%>"></td>
 		 </tr>
 		 <tr>
 			<td align="center">用户姓氏：</td>
-			<td><input type="text" name="lastName" size="20" value=""></td>
-		 </tr> -->
+			<td><input type="text" name="lastName" size="20" value="<%=u_LastName%>"></td>
+		 </tr>
 		 <tr>
 			<td align="center">用户密码：</td>
 			<td><input type="password" name="password" size="20" value=""></td>

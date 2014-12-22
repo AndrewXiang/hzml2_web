@@ -64,8 +64,8 @@ public class EditUserAction extends BaseAction {
 		user.setUserId(Integer.valueOf(userId));
 		user.setLogonName(logonName);
 		user.setPassword(password);
-	  //user.setFirstName(firstName);
-	  //user.setLastName(lastName);
+	    user.setFirstName(firstName);
+	    user.setLastName(lastName);
 		ClassPathXmlApplicationContext context =new ClassPathXmlApplicationContext("/applicationContext.xml");
 		AdminUser admin =(AdminUser)context.getBean("adminservice");
 		
