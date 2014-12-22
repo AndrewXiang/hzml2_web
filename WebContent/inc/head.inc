@@ -26,7 +26,7 @@
 									<tr>
 										<td width="100%">
 											<div align="center">
-												<b> <!--该链接还没完成--> <a href="index.jsp">客调信息 </a></b>
+												<b> <!--该链接还没完成--> <a href="0_kediao.jsp">客调信息 </a></b>
 											</div>
 										</td>
 									</tr>
