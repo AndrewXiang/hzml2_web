@@ -4,7 +4,8 @@
 <%
     String location_code=request.getParameter("location_code");
     session.setMaxInactiveInterval(3600);
-    session.putValue( "location_code",location_code); 
+    /* session.putValue( "location_code",location_code); */
+    session.setAttribute("location_code",location_code);
 %>
 <html>
 <head>
@@ -23,7 +24,7 @@
          </td>
          <td>
             <div id="right">
-               <iframe width="1620" height="1080" src="report_main.jsp"  name="main" frameborder="1" scrolling="no"></iframe>
+               <iframe width="1620" height="1080" src="report_main.html"  name="main" frameborder="1" scrolling="no"></iframe>
             </div>
          </td>
        </tr>   
