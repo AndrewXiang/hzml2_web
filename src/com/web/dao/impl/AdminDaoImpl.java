@@ -74,7 +74,7 @@ public class AdminDaoImpl implements AdminDao {
 		    		                            + "where user_id ="+user.getUserId()+"");
 		   //SQL语句中的字段完全采用正常的SQL语句，或者说字段按照xx.hbm.xml中的<column>一列
 		  /*int i= stat.executeUpdate("update User  set password = "+user.getPassword()+" where logon_Name='"+user.getLogonName()+"'");*/
-			System.out.print("更新的行数为:"+i);
+			System.out.print("更新的行数为:"+i);//测试Update是否执行过
 		    if(i != 0){
 				isok = false;
 			}
