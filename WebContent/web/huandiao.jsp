@@ -24,7 +24,7 @@
          </td>
          <td>
             <div id="right">
-               <iframe width="1620" height="1080" src="report_main.jsp"  name="main" frameborder="1" scrolling="no"></iframe>
+               <iframe width="1620" height="1080" src="report_main.html"  name="main" frameborder="1" scrolling="no"></iframe>
             </div>
          </td>
        </tr>   
