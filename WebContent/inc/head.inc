@@ -26,7 +26,7 @@
 									<tr>
 										<td width="100%">
 											<div align="center">
-												<b> <!--该链接还没完成--> <a href="0_kediao.jsp">客调信息 </a></b>
+												<b> <!--该链接还没完成--> <a href="kediao.jsp">客调信息 </a></b>
 											</div>
 										</td>
 									</tr>
@@ -40,7 +40,7 @@
 									<tr>
 										<td width="100%">
 											<div align="center">
-												<b><!--按钮链接未实现--><a href="#">行调信息</a></b>
+												<b><!--按钮链接未实现--><a href="xingdiao.jsp">行调信息</a></b>
 											</div>
 										</td>
 									</tr>
@@ -54,7 +54,7 @@
 									<tr>
 										<td width="100%">
 											<div align="center">
-												<b> <!--按钮链接未实现--> <a href="#">电调信息 </a></b>
+												<b> <!--按钮链接未实现--> <a href="diandiao.jsp">电调信息 </a></b>
 											</div>
 										</td>
 									</tr>
@@ -68,7 +68,7 @@
 									<tr>
 										<td width="100%">
 											<div align="center">
-												<b> <!--按钮链接未实现--> <a href="#">环调信息</a></b>
+												<b> <!--按钮链接未实现--> <a href="huandiao.jsp">环调信息</a></b>
 											</div>
 										</td>
 									</tr>
