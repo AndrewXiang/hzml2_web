@@ -15,7 +15,7 @@
 	<!-- 设置页面显示背景颜色、边距和加载方式-->
     <b leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 		<!-- 设置表格属性，包括宽、高，居中显示和表格边线-->
-		<table width= "1920" border="0" cellspacing="0" cellpadding="0" align="center" background="images/nv.png" height="20">
+		<table width= "1895" border="0" cellspacing="0" cellpadding="0" align="center" background="images/nv.png" height="20">
 			<tr>
 				<td align="top">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" height="28">
@@ -129,7 +129,7 @@
 				</td>
 			</tr>
 		</table>
-		<table width="1920"  border="0"  align="center" >
+		<table width="1895"  border="0"  align="center" >
 		<!--根据屏幕的分辨率来进行调整width的大小，如为OCC则为1920，车站的话则为1440-->
 			<tr>
 				<td valign="top">					
