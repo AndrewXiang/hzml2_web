@@ -19,12 +19,12 @@
        <tr>
          <td valign="top">
             <div id="left">
-               <iframe width="280" height="1080"  src="kediao_menu.jsp"  name="menu" frameborder="1" scrolling="no"></iframe>
+               <iframe width="220" height="880"  src="kediao_menu.jsp"  name="menu" frameborder="1" scrolling="no"></iframe>
             </div>
          </td>
          <td>
             <div id="right">
-               <iframe width="1620" height="1080" src="report_main.html"  name="main" frameborder="1"></iframe>
+               <iframe width="1660" height="880" src="report_main.html"  name="main" frameborder="1"></iframe>
             </div>
          </td>
        </tr>   
