@@ -22,8 +22,6 @@ public class EncodingFilter implements Filter {
 		try{
 			//±àÂë
 			srequest.setCharacterEncoding("GBK");
-			sresponse.setCharacterEncoding("GBK");
-			sresponse.setContentType("text/html;charset=gbk");
 			//¼ÌĞøÇëÇó
 			chain.doFilter(srequest, sresponse);
 		}catch(Exception e){
