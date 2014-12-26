@@ -111,14 +111,14 @@
 					d.add(50302,503,'月报','../reportJsp/HZML2_showReport.jsp?raq=/30602.raq','','main');
 					d.add(50303,503,'年报','../reportJsp/HZML2_showReport.jsp?raq=/30603.raq','','main'); */
 			/* d.add(5,0,'客调',''); */
-				d.add(501,0,'故障报警统计','');
+			/* d.add(501,0,'故障报警统计','');
 					d.add(50101,501,'日报','../reportJsp/HZML2_showReport.jsp?raq=/20501.raq','','main');
 					d.add(50102,501,'月报','../reportJsp/HZML2_showReport.jsp?raq=/20502.raq','','main');
 					d.add(50103,501,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20503.raq','','main');
 				d.add(502,0,'屏蔽门开关动作','');
 					d.add(50201,502,'日报','../reportJsp/HZML2_showReport.jsp?raq=/40401.raq','','main');
 					d.add(50202,502,'月报','../reportJsp/HZML2_showReport.jsp?raq=/40402.raq','','main');
-					d.add(50203,502,'年报','../reportJsp/HZML2_showReport.jsp?raq=/40403.raq','','main');
+					d.add(50203,502,'年报','../reportJsp/HZML2_showReport.jsp?raq=/40403.raq','','main'); */
 				d.add(503,0,'车站客流','');
 					d.add(50301,503,'日报','../reportJsp/HZML2_showReport.jsp?raq=/30601.raq','','main');
 					d.add(50302,503,'月报','../reportJsp/HZML2_showReport.jsp?raq=/30602.raq','','main');
