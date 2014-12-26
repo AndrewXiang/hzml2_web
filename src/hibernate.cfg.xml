@@ -8,7 +8,9 @@
         <!-- 数据库连接设置 -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.password">dbo</property>
-        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/hzml2_web</property>
+        <!-- <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/hzml2_web</property> -->
+        <!-- OCC现场数据库连接设置 -->
+        <property name="hibernate.connection.url">jdbc:mysql://10.17.70.3:3306/hzml2_web</property>
         <property name="hibernate.connection.useUnicode">true</property>
         <property name="hibernate.connection.characterEncoding">gbk</property>
         <property name="hibernate.connection.username">dbo</property>
