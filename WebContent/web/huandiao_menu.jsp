@@ -30,26 +30,26 @@
 					d.add(10302,103,'月报','../reportJsp/HZML2_showReport.jsp?raq=/10302.raq','','main');
 					d.add(10303,103,'年报','../reportJsp/HZML2_showReport.jsp?raq=/10303.raq','','main');*/
 				/* d.add(2,0,'环调',''); */
-					d.add(201,0,'风机统计','');
+					/* d.add(201,0,'风机统计','');
 						d.add(20101,201,'日报','../reportJsp/HZML2_showReport.jsp?raq=/20101.raq','','main');
 						d.add(20102,201,'月报','../reportJsp/HZML2_showReport.jsp?raq=/20102.raq','','main');
-						d.add(20103,201,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20103.raq','','main');
+						d.add(20103,201,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20103.raq','','main'); */
 					d.add(202,0,'空调统计','');
 						d.add(20201,202,'日报','../reportJsp/HZML2_showReport.jsp?raq=/20201.raq','','main');
 						d.add(20202,202,'月报','../reportJsp/HZML2_showReport.jsp?raq=/20202.raq','','main');
 						d.add(20203,202,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20203.raq','','main');
-					d.add(203,0,'水泵统计','');
+					/* d.add(203,0,'水泵统计','');
 						d.add(20301,203,'日报','../reportJsp/HZML2_showReport.jsp?raq=/20301.raq','','main');
 						d.add(20302,203,'月报','../reportJsp/HZML2_showReport.jsp?raq=/20302.raq','','main');
-						d.add(20303,203,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20303.raq','','main');
-					d.add(204,0,'水系统统计','');
+						d.add(20303,203,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20303.raq','','main'); */
+					/* d.add(204,0,'水系统统计','');
 						d.add(20401,204,'日报','../reportJsp/HZML2_showReport.jsp?raq=/20401.raq','','main');
 						d.add(20402,204,'月报','../reportJsp/HZML2_showReport.jsp?raq=/20402.raq','','main');
 						d.add(20403,204,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20403.raq','','main');
 					d.add(205,0,'故障报警统计','');
 						d.add(20501,205,'日报','../reportJsp/HZML2_showReport.jsp?raq=/20501.raq','','main');
 						d.add(20502,205,'月报','../reportJsp/HZML2_showReport.jsp?raq=/20502.raq','','main');
-						d.add(20503,205,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20503.raq','','main');
+						d.add(20503,205,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20503.raq','','main'); */
 					d.add(206,0,'温度统计','');
 						d.add(20601,206,'日报','../reportJsp/HZML2_showReport.jsp?raq=/20601.raq','','main');
 						d.add(20602,206,'月报','../reportJsp/HZML2_showReport.jsp?raq=/20602.raq','','main');
