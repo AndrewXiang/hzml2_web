@@ -29,11 +29,11 @@
 		 </tr> --%>
 		<tr>
 			<td align="center">用户名字：</td>
-			<td><input type="text" name="firstName" size="20" value="<%=u_FirstName%>"/></td>
+			<td><input type="text" name="firstName" size="20" value="<%=u_FirstName%>" readonly="readonly"/></td>
 		 </tr>
 		 <tr>
 			<td align="center">用户姓氏：</td>
-			<td><input type="text" name="lastName" size="20" value="<%=u_LastName%>"/></td>
+			<td><input type="text" name="lastName" size="20" value="<%=u_LastName%>" readonly="readonly"/></td>
 		 </tr>
 		 <tr>
 			<td align="center">用户密码：</td>
