@@ -11,7 +11,7 @@
 %>
 
 <!--toolbar begin-->
-<%	String appmap = request.getContextPath();
+<%-- <%	String appmap = request.getContextPath();
 	String printImage = "<img src='" + appmap + "/images/print.gif' border=no >";
 	String excelImage = "<img src='" + appmap + "/images/excel.gif' border=no >";
 	String pdfImage = "<img src='" + appmap + "/images/pdf.gif' border=no >";
@@ -33,7 +33,7 @@
        </ul>
     </li>    
   </ul>
-</div>
+</div> --%>
 <!--toolbar end-->
 
 <!--map begin-->
