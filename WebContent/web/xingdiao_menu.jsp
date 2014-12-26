@@ -59,10 +59,10 @@
 					d.add(20702,207,'月报','../reportJsp/HZML2_showReport.jsp?raq=/20702.raq','','main');
 					d.add(20703,207,'年报','../reportJsp/HZML2_showReport.jsp?raq=/20703.raq','','main'); */
 			/* d.add(3,0,'行调',''); */
-				d.add(301,0,'供电设备故障','');
+				/* d.add(301,0,'供电设备故障','');
 					d.add(30101,301,'日报','../reportJsp/HZML2_showReport.jsp?raq=/30101.raq','','main');
 					d.add(30102,301,'月报','../reportJsp/HZML2_showReport.jsp?raq=/30102.raq','','main');
-					d.add(30303,301,'年报','../reportJsp/HZML2_showReport.jsp?raq=/30103.raq','','main');
+					d.add(30303,301,'年报','../reportJsp/HZML2_showReport.jsp?raq=/30103.raq','','main'); */
 				d.add(306,0,'车站客流','');
 					d.add(30601,306,'日报','../reportJsp/HZML2_showReport.jsp?raq=/30601.raq','','main');
 					d.add(30602,306,'月报','../reportJsp/HZML2_showReport.jsp?raq=/30602.raq','','main');
