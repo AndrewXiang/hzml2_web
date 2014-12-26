@@ -17,14 +17,14 @@
 
 		d.add(0,-1,'电调信息导航');
 		 /*  d.add(1,0,'电调',''); */
-		    d.add(101,0,'开关动作','');
+		    /* d.add(101,0,'开关动作','');
 		     	d.add(10101,101,'日报','../reportJsp/HZML2_showReport.jsp?raq=/10101.raq','','main');
 			    d.add(10102,101,'月报','../reportJsp/HZML2_showReport.jsp?raq=/10102.raq','','main');
 			    d.add(10103,101,'年报','../reportJsp/HZML2_showReport.jsp?raq=/10103.raq','','main');
 		    d.add(102,0,'开关遥控动作','');
 		     	d.add(10201,102,'日报','../reportJsp/HZML2_showReport.jsp?raq=/10201.raq','','main');
 			    d.add(10202,102,'月报','../reportJsp/HZML2_showReport.jsp?raq=/10202.raq','','main');
-			    d.add(10203,102,'年报','../reportJsp/HZML2_showReport.jsp?raq=/10203.raq','','main');
+			    d.add(10203,102,'年报','../reportJsp/HZML2_showReport.jsp?raq=/10203.raq','','main'); */
 		    d.add(103,0,'常用模拟量','');
 			    d.add(10301,103,'日报','../reportJsp/HZML2_showReport.jsp?raq=/10301.raq','','main');
 			    d.add(10302,103,'月报','../reportJsp/HZML2_showReport.jsp?raq=/10302.raq','','main');
