@@ -8,13 +8,12 @@
 		<link href="style.css" rel="stylesheet" type="text/css">
 	</head>
 	<body bgColor=#ffffff leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">		
-			<!-- <table align="center" border="0"> -->
-			<table>
-					<tr vAlign=top>
-						<td width="2">
-						<!-- &nbsp;您现在的位置：登录成功 -->
-						</td>
-					</tr>
-			</table>	
+		<table border="0" width="100%"  height="700" cellspacing="0" cellpadding="0">
+			<tr>
+				<td valign="middle" align="center" style="font-family: 微软雅黑, Verdana, Geneva, Arial, Helvetica, sans-serif;font-size: 30px;font-weight:bold;color: #666;">
+			                                欢迎光临杭州地铁2号线WEB浏览系统
+		       </td>
+			</tr>
+		</table>	
 	</body>
 </html>

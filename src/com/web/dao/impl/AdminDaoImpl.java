@@ -63,17 +63,21 @@ public class AdminDaoImpl implements AdminDao {
 		@SuppressWarnings("deprecation")
 		Connection conn = session.connection();
 		
+		
 		try {
 			Statement stat = conn.createStatement();
 			//现在实现能修改用户名(仅支持英文)和密码
 		    int i= stat.executeUpdate("update User  set password = '"+user.getPassword()+"',"
-		    		                               + "logon_name ='"+user.getLogonName()+"' "
+		    		                               + "logon_name ='"+user.getLogonName()+"',"
+		    		                               + "first_name ='"+user.getFirstName()+"',"
+		    		                               + "last_name  ='"+user.getLastName()+"'"
 		    		                            + "where user_id ="+user.getUserId()+"");
 		   //SQL语句中的字段完全采用正常的SQL语句，或者说字段按照xx.hbm.xml中的<column>一列
 		  /*int i= stat.executeUpdate("update User  set password = "+user.getPassword()+" where logon_Name='"+user.getLogonName()+"'");*/
-			if(i == 0){
+			System.out.println("更新的行数为:"+i);//测试Update是否执行过
+		    if(i != 0){
 				isok = false;
-			}			
+			}
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();

@@ -1,22 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="gbk"?>
 <!DOCTYPE hibernate-configuration PUBLIC
 "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory name="HibernateSessionFactory">
        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
-        <!-- æ•°æ®åº“è¿žæŽ¥è®¾ç½® -->
+        <!-- Êý¾Ý¿âÁ¬½ÓÉèÖÃ -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.password">dbo</property>
-        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/hzml2_web</property>
+        <!-- <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/hzml2_web</property> -->
+        <!-- OCCÏÖ³¡Êý¾Ý¿âÁ¬½ÓÉèÖÃ -->
+        <property name="hibernate.connection.url">jdbc:mysql://10.17.70.3:3306/hzml2_web</property>
+        <property name="hibernate.connection.useUnicode">true</property>
+        <property name="hibernate.connection.characterEncoding">gbk</property>
         <property name="hibernate.connection.username">dbo</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <!-- <property name="hibernate.search.autoregister_listeners">false</property> -->
-        <!-- show_sql ç”ŸæˆSQLè¯­å¥  æ ¼å¼åŒ– æ³¨è§£-->
+        <!-- show_sql Éú³ÉSQLÓï¾ä  ¸ñÊ½»¯ ×¢½â-->
 	    <property name="show_sql">true</property>
    <!-- <property name="format_sql">true</property>
 	    <property name="use_sql_comments">true</property> -->
-        <!--æ·»åŠ å®žä½“ç±»çš„æ˜ å°„æ–‡ä»¶ -->
+        <!--Ìí¼ÓÊµÌåÀàµÄÓ³ÉäÎÄ¼þ -->
         <mapping resource="com/web/model/User.hbm.xml" />
     </session-factory>
 </hibernate-configuration>

@@ -4,42 +4,44 @@
 <%
    int u_id=user.getUserId();
    String u_Name=user.getLogonName();
+   String u_FirstName=user.getFirstName();
+   String u_LastName= user.getLastName();
 %>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=GBK">
-<link href="style.css" rel="stylesheet" type="text/css">
-<title>密码修改</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=GBK">
+   <link href="style.css" rel="stylesheet" type="text/css">
+   <title>密码修改</title>
 </head>
 <body bgColor=#ffffff leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
     <form action="editUser.action" method="POST" name =editUser>
 		<table align="center" cellSpacing=1 cellPadding=1  border=1>
 		 <tr><td align="center" width=100px>登录ID号：</td>
-			 <td><input type="text" name="userId" size="20" value="<%=u_id%>" readonly="readonly"></td>
+			 <td><input type="text" name="userId" size="20" value="<%=u_id%>" readonly="readonly"/></td>
 		 </tr> 
 		<tr>
 			 <td align="center">登录名称：</td>
-			 <td><input type="text" name="logonName" size="20" value="<%=u_Name%>"></td>
+			 <td><input type="text" name="logonName" size="20" value="<%=u_Name%>"/></td>
 	    </tr>
 		 <%-- <tr>
 		      <td align="center">登录名称：</td>
 		      <td>name ="logonName" value="<%=u_Name%>"</td>
 		 </tr> --%>
-		<!--  <tr>
+		<tr>
 			<td align="center">用户名字：</td>
-			<td><input type="text" name="firstName" size="20" value=""></td>
+			<td><input type="text" name="firstName" size="20" value="<%=u_FirstName%>" readonly="readonly"/></td>
 		 </tr>
 		 <tr>
 			<td align="center">用户姓氏：</td>
-			<td><input type="text" name="lastName" size="20" value=""></td>
-		 </tr> -->
+			<td><input type="text" name="lastName" size="20" value="<%=u_LastName%>" readonly="readonly"/></td>
+		 </tr>
 		 <tr>
 			<td align="center">用户密码：</td>
-			<td><input type="password" name="password" size="20" value=""></td>
+			<td><input type="password" name="password" size="20" value=""/></td>
 		 </tr>
 		 <tr>
 			<td align="center">密码确认：</td>
-			<td><input type="password" name="password1" size="20" value=""></td>
+			<td><input type="password" name="password1" size="20" value=""/></td>
 		</tr>
 		<!-- <tr>
 			<td align="center">管理员否：</td>
