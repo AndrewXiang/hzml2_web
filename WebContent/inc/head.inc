@@ -21,7 +21,7 @@
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" height="28">
 						<tr>
 							<!--设置客调信息按钮开始-->					
-							<td width="18%">
+							<td width="15%">
 								<table width="100%" border="0" height="28" background="../images/index_lm.gif">
 									<tr>
 										<td width="100%">
@@ -35,7 +35,7 @@
 							<!--设置客调信息按钮结束-->
 
 							<!--设置行调信息按钮开始-->
-							<td width="18%">
+							<td width="15%">
 								<table width="100%" border="0" height="28" background="../images/index_lm.gif">
 									<tr>
 										<td width="100%">
@@ -49,7 +49,7 @@
 							<!--设置行调信息按钮结束-->
 
 							<!--设置电调信息按钮开始-->
-							<td width="18%">
+							<td width="15%">
 								<table width="100%" border="0" height="28" background="../images/index_lm.gif">
 									<tr>
 										<td width="100%">
@@ -63,7 +63,7 @@
 							<!--设置电调信息按钮结束-->
 
 							<!--设置环调信息按钮开始-->
-							<td width="18%" >
+							<td width="15%" >
 								<table width="100%" border="0" height="28" background="../images/index_lm.gif">
 									<tr>
 										<td width="100%">
@@ -75,11 +75,26 @@
 								</table>
 							</td>
 							<!--设置环调信息按钮结束-->
+							
+							<!--设置应急预案按钮开始-->
+							<td width="15%">
+								<table width="100%" border="0" height="28" background="../images/index_lm.gif">
+									<tr>
+										<td width="100%">
+											<div align="center">
+												<b><a href="contingencyPlan.jsp">应急预案 </a></b>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<!--设置应急预案按钮结束-->
+							
                           <%
                              if(ad==1){
                           %>
 							<!--设置用户管理按钮开始-->
-							<td width="18%">
+							<td width="15%">
 								<table width="100%" border="0" height="28" background="../images/index_lm.gif">
 									<tr>
 										<td width="100%">
@@ -95,7 +110,7 @@
 							}else if (ad==0){
 						%>
 						    <!--设置密码修改按钮开始-->
-							<td width="18%">
+							<td width="15%">
 								<table width="100%" border="0" 
 									height="28" background="../images/index_lm.gif">
 									<tr>
